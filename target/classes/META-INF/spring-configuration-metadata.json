@@ -1,0 +1,82 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak",
+      "type": "com.boc.camunda.config.KeycloakIdentityProvider"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.administrator-group-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.administrator-user-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.authorization-check-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.charset",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.disable-s-s-l-certificate-validation",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.keycloak-admin-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.keycloak-issuer-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.max-http-connections",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.max-result-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.use-email-as-camunda-user-id",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.use-group-path-as-camunda-group-id",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.boc.camunda.config.KeycloakIdentityProvider",
+      "name": "plugin.identity.keycloak.use-username-as-camunda-user-id",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

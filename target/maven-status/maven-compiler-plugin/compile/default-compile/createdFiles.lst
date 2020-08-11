@@ -1,0 +1,4 @@
+com\boc\camunda\config\KeycloakIdentityProvider.class
+META-INF\spring-configuration-metadata.json
+com\boc\camunda\controller\DemoController.class
+com\boc\camunda\CamundaApplication.class

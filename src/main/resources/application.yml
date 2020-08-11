@@ -1,0 +1,41 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /camunda
+
+camunda.bpm:
+#  admin-user:
+#    id: demo
+#    password: demo
+#    firstName: Demo
+  filter:
+    create: All tasks
+  authorization:
+    enabled: true
+
+plugin.identity.keycloak:
+  keycloakIssuerUrl: http://localhost:9090/auth/realms/camunda
+  keycloakAdminUrl: http://localhost:9090/auth/admin/realms/camunda
+  clientId: camunda-identity-service
+  clientSecret: ea909738-2923-477d-ae51-cc0be7bbac05
+  useUsernameAsCamundaUserId: true
+  useGroupPathAsCamundaGroupId: true
+  administratorGroupName: camunda-admin
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/camunda?characterEncoding=UTF-8
+    username: root
+    password: "0826"
+
+#security:
+#  oauth2:
+#    client:
+#      client-id: camunda-identity-service
+#      client-secret: ea909738-2923-477d-ae51-cc0be7bbac05
+#      accessTokenUri: http://localhost:9090/auth/realms/camunda/protocol/openid-connect/token
+#      userAuthorizationUri: https://localhost:9090/auth/realms/camunda/protocol/openid-connect/auth
+#      scope: openid profile email
+#    resource:
+#      userInfoUri: https://localhost:9090/auth/realms/camunda/protocol/openid-connect/userinfo
